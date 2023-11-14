@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="root"></div>
+
+<h1>hello worldd form nitin </h1>
+<button onclick="myfunction()">Change to Black Background</button>
+    <script>
+
+           function myfunction(){
+                 document.getElementById(root).style.color="red";
+           }
+              
+        const heading =  document.createElement("h1");  //js use isko learn krna DOM 
+        heading.innerHTML = "Hello world From Nitin "
+    
+    
+        const root = document.getElementById("root")
+        root.append(heading);
+    </script>
+
+
+
+</body>
+</html>
